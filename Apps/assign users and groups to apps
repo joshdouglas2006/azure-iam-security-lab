@@ -1,0 +1,23 @@
+### Access Assignment (Free Tier Limitation)
+
+Due to Microsoft Entra ID Free tier limitations, application access
+and app roles were assigned directly to users for demonstration purposes.
+
+### Current State (Free Tier)
+- Users assigned directly to the application
+- App roles (Reader, Admin) assigned at the user level
+
+This approach is functional but does not scale well in larger environments.
+
+### Intended State (With Entra ID P1)
+With Entra ID P1 licensing, access would be managed using group-based
+assignments:
+
+- GRP-Standard-Users → Reader role
+- GRP-App-Admins → Admin role
+
+Group-based access would:
+- Improve scalability
+- Simplify onboarding/offboarding
+- Support access reviews and audits
+- Reduce risk of orphaned permissions
