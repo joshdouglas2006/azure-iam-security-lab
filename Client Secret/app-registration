@@ -1,0 +1,10 @@
+### Client Secret Management
+
+A client secret was created for the application with a defined expiration
+to demonstrate secure credential lifecycle management.
+
+- Secrets are time-bound
+- Secret values are never stored or committed
+- Rotation would be required prior to expiration
+
+Note: The secret value is intentionally not recorded.
