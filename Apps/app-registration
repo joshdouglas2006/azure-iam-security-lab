@@ -1,0 +1,14 @@
+### Application Ownership
+The application has defined owners to ensure accountability
+and proper lifecycle management.
+
+### Group-Based Access
+Access to the application is assigned through groups rather
+than individual users.(In company with a P1 or P2 level license)
+
+On the free tier access is given through each user. Not meant for large company. 
+
+### App Roles
+The application uses roles (Reader, Admin) to enforce
+least privilege within the app itself.
+Roles are assigned to groups for scalability.
