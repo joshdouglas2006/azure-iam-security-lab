@@ -1,0 +1,19 @@
+## Conditional Access – MFA for Privileged Accounts
+
+### Policy Objective
+Protect privileged accounts from credential-based attacks.
+
+### Scope
+-**Users:** GRP-Global-Admins
+-**Cloud Apps:** All
+-**Conditions:** Any location, any device
+-**Access Control:** Require MFA
+
+### Enforcement Logic
+- MFA satisfied → Access granted
+- MFA not satisfied → Access blocked
+
+### Design Note
+This tenant uses Microsoft Entra ID Free. Conditional Access enforcement
+requires Entra ID P1. Policies are designed and documented for future enforcement.
+
